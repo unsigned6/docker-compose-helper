@@ -1,0 +1,33 @@
+{
+  "name": "docker-compose-helper",
+  "version": "0.0.1",
+  "description": "Helper for docker-compose",
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "dch": "./bin/dch.js"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "inquirer": "^8.1.5",
+    "inquirer-autocomplete-prompt": "^1.4.0",
+    "inquirer-checkbox-plus-prompt": "^1.0.1",
+    "yaml": "^1.10.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:unsigned6/docker-compose-helper.git"
+  },
+  "preferGlobal": true,
+  "author": "unsigned6",
+  "license": "ISC",
+  "keywords": [
+    "docker",
+    "cli"
+  ]
+}
