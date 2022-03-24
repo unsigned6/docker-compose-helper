@@ -1,6 +1,6 @@
 {
   "name": "docker-compose-helper",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Helper for docker-compose",
   "main": "./lib/index.js",
   "directories": {
