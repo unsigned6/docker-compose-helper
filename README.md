@@ -43,12 +43,15 @@ Sometimes you have multiple services in your docker-compose configurations as we
 
 Some commands already include predefined arguments to make usage more robust. (e.g. `up` append also `--force-recreate` to have new container each time you want to up it and `-d` not to append service output).
 
-| command | arguments included |
-|---------|--------------------|
-|`up`     | `-d --force-recreate`|
-|`logs`   | `-f --tail 10`     |
-|`rm`     | `-f -s`            |
+| command   | arguments included |
+|-----------|--------------------|
+|`up`       | `-d --force-recreate`|
+|`logs`     | `-f --tail 10`     |
+|`rm`       | `-f -s`            |
 
+# Docker commands
+
+Also it is included ability to attach to container shell using `docker exec -it contaner_name bash` command. In commands list there two options `bash` and `sh`.
 
 ## Configuration
 
